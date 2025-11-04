@@ -18,7 +18,7 @@ MotorMask limits_get_state();
 bool      limits_startup_check();
 
 void limit_error();
-void limit_error(size_t axis, float cordinate);
+void limit_error(size_t axis, float coordinate);
 
 float limitsMaxPosition(size_t axis);
 float limitsMinPosition(size_t axis);
